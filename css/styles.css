@@ -103,6 +103,7 @@ a {
 }
 
 #info .images-container .image-wrapper p {
+  margin: 0;
   text-align: center;
 }
 
@@ -123,6 +124,7 @@ a {
 
 #quote .narrow-container p {
   margin: 0;
+  color: #1f2937;
 }
 
 #quote .narrow-container .quote-author {
@@ -139,14 +141,41 @@ a {
   font-size: 36px;
 }
 
+#signing {
+  padding: 100px 0;
+}
 
+#signing .std-container {
+  padding: 50px 0;
+  background-color: #3882f6;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
+#signing .sign-text p {
+  margin: 0;
+  color: #f9faf8;
+}
 
+#signing .sign-text .header-text {
+  font-size: 24px;
+  font-weight: 900;
+}
 
-
-
-
-
+#signing .button {
+  display: block;
+  text-align: center;
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: 900;
+  width: 135px;
+  height: 35px;
+  line-height: 35px;
+  border: 2px solid #e5e7eb;
+  border-radius: 5px;
+}
 
 #footer > .std-container {
   display: flex;
