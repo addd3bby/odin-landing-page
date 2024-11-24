@@ -3,16 +3,16 @@ body {
   margin: 0;
 }
 
-.header, .hero-text, .footer {
+#header, #hero-text, #footer {
   background-color: #1f2937 ;
 }
 
 .std-container {
-  width: 900px;
+  width: 1024px;
   margin: 0 auto;
 }
 
-.header > .std-container {
+#header > .std-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -28,22 +28,51 @@ body {
   font-size: 18px;
 }
 
-.header a {
+a {
   text-decoration: none;
 }
 
-.header > .std-container > ul {
+#header > .std-container > ul {
   display: flex;
   margin: 0;
   padding: 0;
   gap: 16px;
 }
 
-.header ul {
+#header ul {
   list-style: none;
   padding: 0;
 }
 
+#hero-text .std-container {
+  padding: 100px 0 130px;
+  display: flex;
+}
+
+#hero-text h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+  margin: 0;
+}
+
+#hero-text p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+#hero-text .button {
+  display: block;
+  width: 130px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 18px;
+  font-weight: 900;
+  color: #e5e7eb;
+  background-color: #3882f6;
+  text-align: center;
+  border-radius: 5px;
+}
 
 
 
@@ -56,12 +85,14 @@ body {
 
 
 
-.footer > .std-container {
+
+
+#footer > .std-container {
   display: flex;
   justify-content: center;
 }
 
-.footer > .std-container > .footer-text {
+#footer > .std-container > .footer-text {
   color: #f9faf8;
   font-size: 18px;
 }
