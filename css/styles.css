@@ -111,6 +111,33 @@ a {
   border-radius: 20px;
 }
 
+#quote {
+  background-color: #e5e7eb;
+}
+
+#quote .narrow-container {
+  padding: 130px 0 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+#quote .narrow-container p {
+  margin: 0;
+}
+
+#quote .narrow-container .quote-author {
+  align-self: flex-end;
+  color: #1f2937;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+#quote .narrow-container .quote-text {
+  color: #1f2937;
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 36px;
+}
 
 
 
